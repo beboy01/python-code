@@ -1,6 +1,6 @@
 # python-code
 # Exercice1
-'''python
+```python
 from random import*
 def demande_nombre(nb_min, nb_max):
     # Quel est le nombre magique entre (  1 et 10)
@@ -22,5 +22,5 @@ while not nombre == nombre_Magie:
       print("le nombre entrez est grand ")
    elif(nombre < nombre_Magie):
       print("le nombre entré est peptit" )
- '''
+ ```
     
