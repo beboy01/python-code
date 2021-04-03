@@ -1,9 +1,9 @@
 # python-code
 # Exercice1 nombre Misterieux
 # Pour commencer ,l'ordinateur va choisir au hasard un nombre compris entre 1 et 100.
-#L'utiisateur doit alors deviner ce nombre comme ceci:
-#L'utilisateur propose un nombre et l'ordinateur lui dit si est trop petit ou trop grand, et ainsi de suite jusqu'a ce que
-#L'utilisateur aie trouver le bon nombre 
+# L'utiisateur doit alors deviner ce nombre comme ceci:
+# L'utilisateur propose un nombre et l'ordinateur lui dit si est trop petit ou trop grand, et ainsi de suite jusqu'a ce que
+# L'utilisateur aie trouver le bon nombre 
 ```python
 from random import*
 def nombre_misterieux(nb_min, nb_max):
