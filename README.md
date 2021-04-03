@@ -1,9 +1,12 @@
 # python-code
-# Exercice1
+# Exercice1 nombre Misterieux
+# Pour commencer ,l'ordinateur va choisir au hasard un nombre compris entre 1 et 100.
+#L'utiisateur doit alors deviner ce nombre comme ceci:
+#L'utilisateur propose un nombre et l'ordinateur lui dit si est trop petit ou trop grand, et ainsi de suite jusqu'a ce que
+#L'utilisateur aie trouver le bon nombre 
 ```python
 from random import*
-def demande_nombre(nb_min, nb_max):
-    # Quel est le nombre magique entre (  1 et 10)
+def nombre_misterieux(nb_min, nb_max):
     nombre_str = input(f" Quel est le nombre magique entre (  {nb_min} et {nb_max})")
     try:
         nombre_int = int(nombre_str)
@@ -15,7 +18,7 @@ NOMBRE_MAX = 100
 nombre_Magie = randint(NOMBRE_MIN,NOMBRE_MAX)
 nombre=0
 while not nombre == nombre_Magie:
-   nombre = demande_nombre(NOMBRE_MIN, NOMBRE_MAX)
+   nombre = nombre_misterieux(NOMBRE_MIN, NOMBRE_MAX)
    if(nombre == nombre_Magie):
        print("bravo vous avez gagnez")
    elif(nombre > nombre_Magie):
