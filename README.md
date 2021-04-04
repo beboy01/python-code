@@ -26,4 +26,14 @@ while not nombre == nombre_Magie:
    elif(nombre < nombre_Magie):
       print("le nombre entré est peptit" )
  ```
+    # Exercice 2 purge un caractère dans une chaine de caractère
+    # solution
+    ```python
+    def purge(text,lettre_suprimer):
+    return text.replace(lettre_suprimer,"")
+texte=input("Entrez une Chaine de caractère")
+lettre= input("quelle lettre voulez vous purger")
     
+print(purge(texte,lettre))
+    
+```
